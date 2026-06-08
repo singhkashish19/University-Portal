@@ -1,33 +1,15 @@
 
  /* Cascading Style Sheets */
 
-*{
+* {
     margin: 0;
     padding: 0;
-    /* border: 1px solid yellow; */
+    box-sizing: border-box;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(../Poppins/Poppins-Regular.ttf);
-}
-    @font-face {
-    font-family: bold;
-    src: url(../Poppins/Poppins-Bold.ttf);
-}
-
-@font-face {
-    font-family: secound;
-    src: url(../Poppins/Poppins-Bold.ttf);
-}
-
-h1{
-    font-family: bold;
-}
-
-body{
-    font-family: myFirstFont,Verdana, Geneva, Tahoma, sans-serif;
-    cursor:default;
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: default;
 }
 
     /* Website Scrollerbar */
@@ -47,7 +29,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.488),rgba(4, 9, 30, 0.488)),url(WhatsApp\ Image\ 2024-11-06\ at\ 00.44.14_1b4e27b4.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.488),rgba(4, 9, 30, 0.488)),url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -272,7 +254,7 @@ h3{
 .ctn{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/banner_ggu.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -288,7 +270,7 @@ h3{
 .ctn:hover{
     margin: 100px auto;
     width: 80%;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/banner_ggu.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;

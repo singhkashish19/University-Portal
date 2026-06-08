@@ -1,22 +1,14 @@
- @font-face {
-    font-family: myFirstFont;
-    src: url(../Poppins/Poppins-Regular.ttf);
+* {
+    box-sizing: border-box;
 }
-@font-face {
-  font-family: bold;
-  src: url(../Poppins/Poppins-Bold.ttf);
-}
-  *{
-    /* overflow: hidden; */
-    /* border: 1px solid yellow; */
-  }
-  body{
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(WhatsApp\ Image\ 2024-11-06\ at\ 00.44.14_1b4e27b4.jpg);
+
+body {
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
-    font-family: myFirstFont;
-  }
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
   
     /* Website Scrollerbar */
@@ -121,7 +113,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 outline: none;
-font-family: myFirstFont;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
